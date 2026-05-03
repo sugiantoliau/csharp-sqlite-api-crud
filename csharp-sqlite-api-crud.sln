@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.37203.1 d17.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "csharp-sqlite-api-crud", "csharp-sqlite-api-crud.csproj", "{77B7D1F0-8A23-4201-AE3E-8B002321F35A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{77B7D1F0-8A23-4201-AE3E-8B002321F35A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{77B7D1F0-8A23-4201-AE3E-8B002321F35A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{77B7D1F0-8A23-4201-AE3E-8B002321F35A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{77B7D1F0-8A23-4201-AE3E-8B002321F35A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {EE7E83B9-76C6-48DB-9248-70EE2E1C8E94}
+	EndGlobalSection
+EndGlobal

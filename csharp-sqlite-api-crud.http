@@ -1,0 +1,6 @@
+@csharp_sqlite_api_crud_HostAddress = http://localhost:5197
+
+GET {{csharp_sqlite_api_crud_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
