@@ -111,3 +111,78 @@ Retrieve the data again to confirm the deletion:
 ```bash
 curl -k https://localhost:7016/api/products
 ```
+
+<br><br>
+
+
+# Now Let's Play with the Customer Table
+
+Testing the CRUD functionality for the Customer endpoints using the active ports (`7016` for HTTPS).
+
+### 1. Add Customer Data
+Populate the SQLite database with initial customer records:
+```bash
+curl -k -X POST https://localhost:7016/api/customers -H "Content-Type: application/json" -d "{\"name\": \"Budi\", \"City\": \"Jakarta\"}"
+curl -k -X POST https://localhost:7016/api/customers -H "Content-Type: application/json" -d "{\"name\": \"Yuni\", \"City\": \"Bekasi\"}"
+curl -k -X POST https://localhost:7016/api/customers -H "Content-Type: application/json" -d "{\"name\": \"Andi\", \"City\": \"Depok\"}"
+curl -k -X POST https://localhost:7016/api/customers -H "Content-Type: application/json" -d "{\"name\": \"Budi2\", \"City\": \"Jakarta\"}"
+curl -k -X POST https://localhost:7016/api/customers -H "Content-Type: application/json" -d "{\"name\": \"Budi3\", \"City\": \"Jakarta\"}"
+curl -k -X POST https://localhost:7016/api/customers -H "Content-Type: application/json" -d "{\"name\": \"Budi4\", \"City\": \"Jakarta\"}"
+curl -k -X POST https://localhost:7016/api/customers -H "Content-Type: application/json" -d "{\"name\": \"Budi5\", \"City\": \"Jakarta\"}"
+```
+
+---
+
+### 2. Retrieve Customer Data
+Fetch all current records to verify IDs and details:
+```bash
+curl -k https://localhost:7016/api/customers
+```
+
+---
+
+### 3. Delete Customer Data
+Demonstrating deletion by ID, by Name, and by a combination of both:
+
+**Delete by ID:**
+```bash
+curl -k -X DELETE https://localhost:7016/api/customers/1
+```
+
+**Delete by Name:**
+```bash
+curl -k -X DELETE https://localhost:7016/api/customers/by-name/Budi2
+```
+
+**Strict Delete (Match ID and Name):**
+```bash
+curl -k -X DELETE https://localhost:7016/api/customers/by-id-name/5/Budi3
+curl -k -X DELETE https://localhost:7016/api/customers/by-id-name/6/Budi4
+```
+
+---
+
+### 4. Update Customer Data
+Demonstrating standard updates, renaming via Name, and strict multi-parameter updates:
+
+**Update by ID (Standard):**
+```bash
+curl -k -X PUT https://localhost:7016/api/customers/7 -H "Content-Type: application/json" -d "{\"id\": 7, \"name\": \"Budi5.1\", \"city\": \"Jakarta\"}"
+```
+
+**Update by Name (Renaming):**
+```bash
+curl -k -X PUT https://localhost:7016/api/customers/by-name/Budi5.1 -H "Content-Type: application/json" -d "{\"id\": 7, \"name\": \"Budi5.1.2\", \"city\": \"Jakarta\"}"
+```
+
+**Strict Update (Match ID and Old Name):**
+```bash
+curl -k -X PUT https://localhost:7016/api/customers/by-id-name/7/Budi5.1.2 -H "Content-Type: application/json" -d "{\"id\": 7, \"name\": \"Budi5.1.2.3\", \"city\": \"Jakarta\"}"
+```
+
+**Strict Update (City Change only):**
+```bash
+curl -k -X PUT https://localhost:7016/api/customers/by-id-name/7/Budi5.1.2.3 -H "Content-Type: application/json" -d "{ \"id\": 7, \"name\": \"Budi5.1.2.3\", \"city\": \"Jakarta Selatan\"}"
+```
+
+```
