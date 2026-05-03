@@ -145,4 +145,5 @@ D:\aaa_SugiCore\csharp-sqlite-api-crud\obj\Debug\net9.0\refint\csharp-sqlite-api
 D:\aaa_SugiCore\csharp-sqlite-api-crud\obj\Debug\net9.0\csharp-sqlite-api-crud.pdb
 D:\aaa_SugiCore\csharp-sqlite-api-crud\obj\Debug\net9.0\csharp-sqlite-api-crud.genruntimeconfig.cache
 D:\aaa_SugiCore\csharp-sqlite-api-crud\obj\Debug\net9.0\ref\csharp-sqlite-api-crud.dll
+D:\aaa_SugiCore\csharp-sqlite-api-crud\obj\Debug\net9.0\csharp-sqlite-api-crud.sourcelink.json
 D:\aaa_SugiCore\csharp-sqlite-api-crud\obj\Debug\net9.0\staticwebassets.upToDateCheck.txt

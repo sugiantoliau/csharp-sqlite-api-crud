@@ -3,24 +3,20 @@
   "WorkspaceRootPath": "D:\\aaa_SugiCore\\csharp-sqlite-api-crud\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{77B7D1F0-8A23-4201-AE3E-8B002321F35A}|csharp-sqlite-api-crud.csproj|d:\\aaa_sugicore\\csharp-sqlite-api-crud\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{77B7D1F0-8A23-4201-AE3E-8B002321F35A}|csharp-sqlite-api-crud.csproj|solutionrelative:controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{77B7D1F0-8A23-4201-AE3E-8B002321F35A}|csharp-sqlite-api-crud.csproj|d:\\aaa_sugicore\\csharp-sqlite-api-crud\\controllers\\customerscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{77B7D1F0-8A23-4201-AE3E-8B002321F35A}|csharp-sqlite-api-crud.csproj|solutionrelative:controllers\\customerscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{77B7D1F0-8A23-4201-AE3E-8B002321F35A}|csharp-sqlite-api-crud.csproj|d:\\aaa_sugicore\\csharp-sqlite-api-crud\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{77B7D1F0-8A23-4201-AE3E-8B002321F35A}|csharp-sqlite-api-crud.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{77B7D1F0-8A23-4201-AE3E-8B002321F35A}|csharp-sqlite-api-crud.csproj|d:\\aaa_sugicore\\csharp-sqlite-api-crud\\entities\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{77B7D1F0-8A23-4201-AE3E-8B002321F35A}|csharp-sqlite-api-crud.csproj|solutionrelative:entities\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{77B7D1F0-8A23-4201-AE3E-8B002321F35A}|csharp-sqlite-api-crud.csproj|d:\\aaa_sugicore\\csharp-sqlite-api-crud\\entities\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{77B7D1F0-8A23-4201-AE3E-8B002321F35A}|csharp-sqlite-api-crud.csproj|solutionrelative:entities\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{77B7D1F0-8A23-4201-AE3E-8B002321F35A}|csharp-sqlite-api-crud.csproj|d:\\aaa_sugicore\\csharp-sqlite-api-crud\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{77B7D1F0-8A23-4201-AE3E-8B002321F35A}|csharp-sqlite-api-crud.csproj|solutionrelative:data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{77B7D1F0-8A23-4201-AE3E-8B002321F35A}|csharp-sqlite-api-crud.csproj|d:\\aaa_sugicore\\csharp-sqlite-api-crud\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{77B7D1F0-8A23-4201-AE3E-8B002321F35A}|csharp-sqlite-api-crud.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{77B7D1F0-8A23-4201-AE3E-8B002321F35A}|csharp-sqlite-api-crud.csproj|d:\\aaa_sugicore\\csharp-sqlite-api-crud\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{77B7D1F0-8A23-4201-AE3E-8B002321F35A}|csharp-sqlite-api-crud.csproj|solutionrelative:controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,58 +26,19 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "ProductsController.cs",
-              "DocumentMoniker": "D:\\aaa_SugiCore\\csharp-sqlite-api-crud\\Controllers\\ProductsController.cs",
-              "RelativeDocumentMoniker": "Controllers\\ProductsController.cs",
-              "ToolTip": "D:\\aaa_SugiCore\\csharp-sqlite-api-crud\\Controllers\\ProductsController.cs",
-              "RelativeToolTip": "Controllers\\ProductsController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-03T05:31:24.476Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "D:\\aaa_SugiCore\\csharp-sqlite-api-crud\\appsettings.json",
-              "RelativeDocumentMoniker": "appsettings.json",
-              "ToolTip": "D:\\aaa_SugiCore\\csharp-sqlite-api-crud\\appsettings.json",
-              "RelativeToolTip": "appsettings.json",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2026-05-03T05:24:15.774Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "AppDbContext.cs",
-              "DocumentMoniker": "D:\\aaa_SugiCore\\csharp-sqlite-api-crud\\Data\\AppDbContext.cs",
-              "RelativeDocumentMoniker": "Data\\AppDbContext.cs",
-              "ToolTip": "D:\\aaa_SugiCore\\csharp-sqlite-api-crud\\Data\\AppDbContext.cs",
-              "RelativeToolTip": "Data\\AppDbContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-03T05:21:34.828Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "Product.cs",
-              "DocumentMoniker": "D:\\aaa_SugiCore\\csharp-sqlite-api-crud\\Entities\\Product.cs",
-              "RelativeDocumentMoniker": "Entities\\Product.cs",
-              "ToolTip": "D:\\aaa_SugiCore\\csharp-sqlite-api-crud\\Entities\\Product.cs",
-              "RelativeToolTip": "Entities\\Product.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAjAAAAAAAAAA==",
+              "Title": "Customer.cs",
+              "DocumentMoniker": "D:\\aaa_SugiCore\\csharp-sqlite-api-crud\\Entities\\Customer.cs",
+              "RelativeDocumentMoniker": "Entities\\Customer.cs",
+              "ToolTip": "D:\\aaa_SugiCore\\csharp-sqlite-api-crud\\Entities\\Customer.cs",
+              "RelativeToolTip": "Entities\\Customer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAA4AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-03T05:11:30.367Z",
+              "WhenOpened": "2026-05-03T07:18:55.072Z",
               "EditorCaption": ""
             },
             {
@@ -92,9 +49,35 @@
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "D:\\aaa_SugiCore\\csharp-sqlite-api-crud\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-03T05:07:52.996Z",
+              "WhenOpened": "2026-05-03T07:16:34.952Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CustomersController.cs",
+              "DocumentMoniker": "D:\\aaa_SugiCore\\csharp-sqlite-api-crud\\Controllers\\CustomersController.cs",
+              "RelativeDocumentMoniker": "Controllers\\CustomersController.cs",
+              "ToolTip": "D:\\aaa_SugiCore\\csharp-sqlite-api-crud\\Controllers\\CustomersController.cs",
+              "RelativeToolTip": "Controllers\\CustomersController.cs",
+              "ViewState": "AgIAAIkAAAAAAAAAAIAwwJUAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-03T07:09:33.982Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ProductsController.cs",
+              "DocumentMoniker": "D:\\aaa_SugiCore\\csharp-sqlite-api-crud\\Controllers\\ProductsController.cs",
+              "RelativeDocumentMoniker": "Controllers\\ProductsController.cs",
+              "ToolTip": "D:\\aaa_SugiCore\\csharp-sqlite-api-crud\\Controllers\\ProductsController.cs",
+              "RelativeToolTip": "Controllers\\ProductsController.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAAQwCAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-03T05:31:24.476Z",
               "EditorCaption": ""
             }
           ]

@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("csharp-sqlite-api-crud")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3ee0ad74b85cc7d6d8f041496e14e972e481d83a")]
 [assembly: System.Reflection.AssemblyProductAttribute("csharp-sqlite-api-crud")]
 [assembly: System.Reflection.AssemblyTitleAttribute("csharp-sqlite-api-crud")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

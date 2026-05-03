@@ -7,6 +7,7 @@ namespace csharp_sqlite_api_crud.Controllers;
 
 [ApiController]
 [Route("api/[controller]")] 
+
 public class ProductsController : ControllerBase
 {
     private readonly AppDbContext _context;
@@ -33,7 +34,7 @@ public class ProductsController : ControllerBase
         return CreatedAtAction(nameof(GetProducts), new { id = product.Id }, product);
     }
 
-    // DELETE: api/products/5
+    // DELETE: api/products/1
     [HttpDelete("{id}")]
     public async Task<IActionResult> DeleteProduct(int id)
     {
